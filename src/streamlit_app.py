@@ -193,7 +193,23 @@ st.markdown(
 
         color: #173B56 !important;
     }
+    [data-testid="stSelectbox"] [data-baseweb="select"] {
+        color-scheme: light !important;
+    }
 
+    [data-testid="stSelectbox"] [data-baseweb="select"] > div {
+        color-scheme: light !important;
+        background-color: #FFFFFF !important;
+    }
+
+    [data-testid="stSelectbox"] [data-baseweb="select"] svg {
+        color: #173B56 !important;
+        fill: #173B56 !important;
+    }
+
+    [data-testid="stSelectbox"] [data-baseweb="select"] [aria-hidden="true"] {
+        background-color: #FFFFFF !important;
+    }
 
     /* ========================================================
        SELECTBOX TEXT
@@ -278,6 +294,40 @@ st.markdown(
         background-color: #FFFFFF !important;
     }
 
+    /* ========================================================
+    FORCE SELECTBOX DROPDOWN LIGHT MODE
+    ======================================================== */
+
+    [data-baseweb="popover"],
+    [data-baseweb="popover"] > div,
+    [data-baseweb="popover"] [role="listbox"],
+    [data-baseweb="popover"] [data-baseweb="menu"],
+    [data-baseweb="popover"] [role="option"] {
+        color-scheme: light !important;
+        background: #FFFFFF !important;
+        background-color: #FFFFFF !important;
+        color: #173B56 !important;
+    }
+
+    [data-baseweb="popover"] svg {
+        color: #173B56 !important;
+        fill: #173B56 !important;
+    }
+
+    [data-baseweb="popover"] [role="option"] {
+        color: #173B56 !important;
+        -webkit-text-fill-color: #173B56 !important;
+    }
+
+    [data-baseweb="popover"] [role="option"]:hover {
+        background: #E7F5FF !important;
+        background-color: #E7F5FF !important;
+    }
+
+    [data-baseweb="popover"] [role="option"][aria-selected="true"] {
+        background: #F4FAFE !important;
+        background-color: #F4FAFE !important;
+    }
 
     /* ========================================================
        DROPDOWN OPTIONS
