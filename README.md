@@ -1,6 +1,7 @@
 # Dubai Property Cost Calculator
 
 A machine learning web application that estimates Dubai property transaction values using historical Dubai real estate transaction data.
+[Try the Live Demo](https://dubai-property-calculator.streamlit.app/)
 <img width="1188" height="888" alt="image" src="https://github.com/user-attachments/assets/549bd39d-12aa-4912-9bab-cd9f03f5555e" />
 <img width="1063" height="437" alt="image" src="https://github.com/user-attachments/assets/539a9b36-0eb0-4acf-bc1e-e5f49967921a" />
 
